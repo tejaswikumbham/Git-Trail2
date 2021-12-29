@@ -1,0 +1,49 @@
+package javaoops2;
+
+import ContinentalTraffic.ContinentTraffic;
+
+public class AustralianTraffic1 implements CentralisedTraffic,ContinentTraffic {
+
+	public static void main(String[] args)  {
+		// TODO Auto-generated method stub
+		CentralisedTraffic a= new AustralianTraffic();
+		a.greengo();
+		a.redstop();
+		a.yellowflash();
+		
+		AustralianTraffic at = new AustralianTraffic();
+		at.walkrow();
+		ContinentTraffic ct =new AustralianTraffic();
+		ct.parkstand();
+		
+	}
+	public void walkrow() {
+		System.out.println("walk on rows");
+	}
+
+	
+	public void redstop() {
+		// TODO Auto-generated method stub
+		System.out.println("redstop");
+	}
+
+	
+	public void greengo() {
+		// TODO Auto-generated method stub
+		System.out.println("greengo");
+	}
+
+
+	public void yellowflash() {
+		// TODO Auto-generated method stub
+		System.out.println("yellowflash");
+		
+	}
+	@Override
+	public void parkstand() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("No parking on road");	
+	}
+
+}
