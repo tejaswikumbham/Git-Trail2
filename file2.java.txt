@@ -15,7 +15,7 @@ public class AustralianTraffic1 implements CentralisedTraffic,ContinentTraffic {
 		at.walkrow();
 		ContinentTraffic ct =new AustralianTraffic();
 		ct.parkstand();
-		
+		System.out.println("directly changing -git");
 	}
 	public void walkrow() {
 		System.out.println("walk on rows");
