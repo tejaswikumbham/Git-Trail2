@@ -16,6 +16,7 @@ public class AustralianTraffic1 implements CentralisedTraffic,ContinentTraffic {
 		ContinentTraffic ct =new AustralianTraffic();
 		ct.parkstand();
 		System.out.println("directly changing -git");
+change from EST in file2.
 	}
 	public void walkrow() {
 		System.out.println("walk on rows");
